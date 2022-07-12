@@ -1,0 +1,55 @@
+/* Entire Webpage */
+
+:root {
+    --primary: #666666;
+    --secondary: #FF7034;
+}
+
+* {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+/* Header */
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+header p {
+    text-align: justify;
+    padding: 10px;
+    color: white;
+}
+
+/*Entire Code Cards*/
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.code-card {    
+    display: flex;
+    border-style: dashed;
+    color: white;
+    width: 33%;
+}
+
+/* Code Card Elements */
+
+.card-header {
+    position: relative;
+    margin-top: -20px;
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+h2 {
+    margin-bottom: 0.625rem;
+    line-height: 1.1;
+    font-size: 25px;
+}
